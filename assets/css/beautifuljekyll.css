@@ -1024,14 +1024,15 @@ pre {
   position: absolute; 
   animation: fling-minislide 90s infinite;
   width: 100%; 
+  opacity: 0;
   height: auto;
 }
 
-@keyframes fling-minislide {
-  0%{
-    opacity: 0;
-    } 
-  50%{
+@keyframes fling-minislide { 
+  25%{
+    opacity: 1;
+  }
+  75%{
     opacity: 1;
   }
   100%{
