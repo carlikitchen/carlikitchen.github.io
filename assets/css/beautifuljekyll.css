@@ -1029,10 +1029,10 @@ pre {
 }
 
 @keyframes fling-minislide {
-  10%{
+  15%{
     opacity: 1;
     } 
-  25%{
+  85%{
     opacity: 0;
   }
 }
