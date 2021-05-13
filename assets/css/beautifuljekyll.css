@@ -16,6 +16,9 @@ body {
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -webkit-flexbox;
   height: 100vh;
   flex-flow:column;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -378,6 +381,9 @@ footer {
   margin-top: 0px;
   font-size: 0.875rem;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -webkit-flexbox;
   flex: 0 1 40px;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
   {% if site.footer-img %}
@@ -1008,6 +1014,9 @@ pre {
   overflow: hidden; 
   position: relative;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -webkit-flexbox;
   flex: 1 1 auto; 
 }
 
