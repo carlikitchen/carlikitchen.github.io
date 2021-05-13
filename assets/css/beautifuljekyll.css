@@ -384,7 +384,7 @@ footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -webkit-flexbox;
-  flex: 0 1 40px;
+  flex: 1 1 40px;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
@@ -1017,7 +1017,7 @@ pre {
   display: -webkit-box;
   display: -webkit-flex;
   display: -webkit-flexbox;
-  flex: 1 1 auto; 
+  flex: 9 1 auto; 
 }
 
 .fling-minislide img{ 
