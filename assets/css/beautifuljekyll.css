@@ -998,7 +998,7 @@ pre {
 }
 
 .fling-minislide {
-  width:350px; 
+  width:99vw; 
   height:300px; 
   overflow:hidden; 
   position:relative; 
