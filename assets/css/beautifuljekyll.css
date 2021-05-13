@@ -610,10 +610,10 @@ footer .footer-custom-content {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin-top: 5rem;
+  margin-top: 0px;
   margin-bottom: 0px;
   position: relative;
-  padding-bottom: 1.25rem;
+  padding-bottom: 0px;
 }
 .intro-header.big-img {
   background: no-repeat center center;
@@ -698,7 +698,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 @media (min-width: 1200px) {
   .intro-header {
-    margin-top: 8.125rem;
+    margin-top: 0px;
   }
   .intro-header.big-img {
     margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
@@ -998,7 +998,7 @@ pre {
 }
 
 .fling-minislide {
-  width:99vw; 
+  width:100vw; 
   height:300px; 
   overflow:hidden; 
   position:relative; 
