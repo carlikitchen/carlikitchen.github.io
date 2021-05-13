@@ -1022,8 +1022,7 @@ pre {
 
 .fling-minislide img{ 
   position: absolute; 
-  animation: fling-minislide 90s infinite; 
-  opacity: 0; 
+  animation: fling-minislide 90s infinite;
   width: 100%; 
   height: auto;
 }
