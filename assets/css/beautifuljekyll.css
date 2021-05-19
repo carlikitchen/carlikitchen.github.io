@@ -384,7 +384,7 @@ footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -webkit-flexbox;
-  flex: 1 1 40px;
+  flex: 0 1 40px;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
@@ -1029,17 +1029,17 @@ pre {
 }
 
 @keyframes fling-minislide { 
-  25%{
+  49%{
     opacity: 1;
   }
-  28%{
+  51%{
     opacity: 0;
   }
 }
 
-.fling-minislide img:nth-child(21){
+/*.fling-minislide img:nth-child(21){
   animation-delay: 0s;
-}
+}*/
 
 .fling-minislide img:nth-child(20){
   animation-delay: 3s;
